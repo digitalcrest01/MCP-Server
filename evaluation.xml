@@ -1,0 +1,42 @@
+<evaluation>
+   <qa_pair>
+      <question>What is the default branch name of the repository 'torvalds/linux'? Answer with only the branch name.</question>
+      <answer>master</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>What is the SPDX license identifier of the repository 'facebook/react'? Answer with only the identifier.</question>
+      <answer>MIT</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>In the repository 'octocat/Hello-World', what is the name of the only file in the root directory of the default branch? Answer with only the filename including its extension.</question>
+      <answer>README</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>What is the title of issue number 1 in the repository 'octocat/Hello-World'? Answer with the exact title text.</question>
+      <answer>Found a bug</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>In the repository 'kubernetes/kubernetes', what is the title of pull request number 1? Answer with the exact title text.</question>
+      <answer>Updating CONTRIBUTING.md to include guidance on commit message format</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Search GitHub for issues with the exact query 'repo:nodejs/node is:pr is:merged author:bnoordhuis created:&lt;2010-01-01' and report the title of the oldest matching pull request (the one with the earliest created_at). Answer with the exact PR title.</question>
+      <answer>node: ignore SIGPIPE</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Look up the GitHub user with login 'defunkt' (one of the founders of GitHub). What is the value of the 'name' field on their public profile? Answer with the exact name.</question>
+      <answer>Chris Wanstrath</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>What is the 'type' field value returned by the GitHub API for the account with login 'github' (the GitHub organization itself)? Answer with exactly one word as returned by the API.</question>
+      <answer>Organization</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>In the repository 'octocat/Hello-World', the file 'README' on the default branch contains a single short line of text. What is that exact text? Use the list-contents tool to find the file and the download_url to retrieve its content. Answer with the exact line, trimmed of any trailing whitespace.</question>
+      <answer>Hello World!</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>For pull request number 1 in the repository 'kubernetes/kubernetes', what is the login of the user who authored the pull request? Answer with the exact login.</question>
+      <answer>brendandburns</answer>
+   </qa_pair>
+</evaluation>
